@@ -8,3 +8,4 @@ Currently a WIP for description. Website is hosted on Vercel, https://artist-sho
 
 # Future development:
 - Extra pages
+- GitHub/LinkedIn link on Contact bar
