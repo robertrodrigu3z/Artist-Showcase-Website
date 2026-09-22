@@ -1,0 +1,135 @@
+/* CSS file */
+
+/* I decided that I wanted my website to have a more purple theme (I like the colour and it's a colour seen in Electra's discography and photoshoots), hence there's colours ranging from white to very light purple to very dark purple */
+
+body {
+    font-family: Helvetica, sans-serif; /* I chose Helvetica given its vibe is more relaxed and friendly (and that is what I wanted to convey in terms of the UI) */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E0FF; /* light purple background */
+    color: #1C062B; /* dark purple text */
+}
+
+/* Header settings */
+
+header {
+    background-color: #370f5e; /* purple */
+    color: #f4e8ff; /* near-white purple */
+    padding: 30px 20px;
+    font-style: bold; /* usage of bold text */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 5px;
+    font-style: italic; /* usage of italic text */
+    color: #f8f2ff; /* near-white purple */
+}
+
+/* Navigation settings */
+nav {
+    background-color: #24004d; /* darker purple */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: #ffffff; /* white */
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #2d0061; /* becomes slightly lighter upon a hover */
+    color: #ffffff;
+}
+
+/* Main content container settings */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Settings for sections */
+section {
+    background-color: #f8f2ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #24004d;
+    border-bottom: 2px solid #370f5e;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #370f5e;
+}
+
+/* Image settings */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 15px auto; /* image is centered */
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #24004d;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Settings for lists as well as links */
+ul, ol {
+    padding-left: 20px;
+}
+
+a {
+    color: #8127d9;
+}
+
+a:hover {
+    color: #bb75ff;
+}
+
+/* Footer settings */
+footer {
+    background-color: #24004d; /* darker purple */
+    color: #f8f2ff; /* near-white purple */
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #f8f2ff;
+}
