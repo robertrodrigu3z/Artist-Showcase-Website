@@ -1,11 +1,4 @@
-Currently a WIP for description. Website is hosted on Vercel, https://artist-showcase-website.vercel.app/home.html.
+# Artist Showcase Website
+This project is a simple HTML/CSS website hosted on Vercel, dedicated to a musician I've looked up to.
 
-# Things to fix:
-- Website URLs can be formatted better
-- Wording
-- More in depth README.md
-- Contact email on website
-
-# Future development:
-- Extra pages
-- GitHub/LinkedIn link on Contact bar
+Site link: https://artist-showcase-website.vercel.app
