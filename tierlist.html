@@ -19,4 +19,81 @@
             <li><a href="visuals.html">Visual Aesthetics & Themes</a></li>
         </ul>
     </nav>
+
+    <main class="tier-list-container">
+        <!-- The tier-list rows -->
+        <div class="tier-row" data-tier="s">
+            <div class="tier-label" style="background-color: #ff6dbd;">S</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <div class="tier-row" data-tier="a">
+            <div class="tier-label" style="background-color: #ff7acc;">A</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <div class="tier-row" data-tier="b">
+            <div class="tier-label" style="background-color: #ff86e5;">B</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <div class="tier-row" data-tier="c">
+            <div class="tier-label" style="background-color: #f583ff;">C</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <div class="tier-row" data-tier="d">
+            <div class="tier-label" style="background-color: #d57aff;">D</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <div class="tier-row" data-tier="f">
+            <div class="tier-label" style="background-color: #a97bff;">F</div>
+            <div class="tier-dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        </div>
+
+        <!-- Where unranked songs are stored until they're dragged out: still haven't added JavaScript code yet, so dragging doesn't work-->
+        <div class="song-pool-container">
+            <h3>Unranked Songs</h3>
+            <div class="song-pool" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <!-- for now i'm leaving a bunch of placeholder images as I need to add the actual song images later -->
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-1">
+                    <img src="images/album1.jpg" alt="Song 1">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-2">
+                    <img src="images/album2.jpg" alt="Song 2">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-3">
+                    <img src="images/album2.jpg" alt="Song 3">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-4">
+                    <img src="images/album2.jpg" alt="Song 4">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-5">
+                    <img src="images/album2.jpg" alt="Song 5">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-6">
+                    <img src="images/album2.jpg" alt="Song 6">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-7">
+                    <img src="images/album2.jpg" alt="Song 7">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-8">
+                    <img src="images/album2.jpg" alt="Song 8">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-9">
+                    <img src="images/album2.jpg" alt="Song 9">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-10">
+                    <img src="images/album2.jpg" alt="Song 10">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-11">
+                    <img src="images/album2.jpg" alt="Song 11">
+                </div>
+                <div class="tier-item" draggable="true" ondragstart="drag(event)" id="song-12">
+                    <img src="images/album2.jpg" alt="Song 12">
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
